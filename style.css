@@ -1,0 +1,188 @@
+h1 {
+    color: blue;
+    font-size: 43px;
+}
+
+body {
+    background: url(wydmy.jpg) transparent repeat-x center;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+
+/*IMAGE*/
+#computer-image {
+    height: 200px;
+    width: 400px;
+}
+/*END IMAGE*/
+
+/*START SINGLE CLASSES*/
+a:menu {
+    color: white;
+}
+/*podswietlanie linka*/
+a:hover {
+    background-color: skyblue;
+    opacity: 15%;
+}
+a:visited{
+    color: white;
+}
+
+.br{
+    display: block;
+    margin: 40px 0;
+}
+/*SINGLE END*/
+
+/*START LIST NAVIGATION*/
+.left-menu {
+    font-size: 25px;
+    background-color: rgba(135, 206, 250, 0.2);
+    width: 15%;
+    height: 800px;
+    float: left;
+    margin-left: 5%;
+}
+.left-menu ul{
+    padding: 0;
+    margin:0
+}
+.left-menu li{
+    list-style: none
+}
+.left-menu li a{
+    width: 90%;
+    padding: 5px 5%;
+    margin: 0;
+    color: white;
+    display: block;
+    border-bottom: 1px solid #3377AA;
+    text-decoration: none;
+}
+.left-menu>ul>li>a {
+    font-weight: bold;
+    background: #6699E4;
+}
+.left-menu li li a {
+    background: #4477DD;
+    padding-left:15%;
+    width: 80%;
+}
+/*END LIST*/
+
+/*MAIN PAGE CLASS*/
+.mainPage {
+    background-color: cornflowerblue;
+    margin-left: 20%;
+    margin-right: 5%;
+    overflow-y: scroll;
+    height: 800px;
+    padding-left: 10px;
+    display: block;
+}
+
+/*MAIN PAGE END*/
+
+/*START FORM */
+
+.font-size{
+    font-size: 20px;
+}
+
+.left-form{
+    float: left;
+    width: 40%;
+    padding-left: 50px;
+
+}
+.right-form{
+    float: right;
+    width: 50%;
+}
+
+/*FORM END*/
+
+/*RADIO BUTTON START*/
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: blue;
+}
+/*RADIO BUTTON END*/
+
+/*TABLE START*/
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+
+}
+.first-table{
+    background-color: steelblue;
+}
+
+tr:nth-child(even) {
+    background: lightskyblue;
+}
+/*odstępy w tabeli*/
+td {
+    padding: 10px;
+}
+th {
+    padding: 10px;
+}
+/*TABLE END*/
+
+/*FOOTER START*/
+.footer {
+    position: center;
+    color: white;
+    text-align: center;
+    background-color: mediumblue;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 2%;
+    font-size: 20px;
+}
+
+.footer p {
+    margin: 15px;
+}
+
+/*FOOTER END*/
