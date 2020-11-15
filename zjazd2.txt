@@ -1,0 +1,30 @@
+Zadanie 2.1
+
+Stwórz w HTML stronę www, zgodnie ze zrzutem ekranu (plik 21.jpg).
+Możesz skorzystać z kodu HTML stworzonego na poprzednim zjeździe. 
+Zwróć uwagę na:
+- (0.25p) listę nawigacyjną (lista "wewnętrzna" musi być zagnieżdżona w wewnętrznej)
+- (0.25p) tytuły (tagi h1, h2...)
+- (1p) formularz: input tekstowy, textarea, lista rozwijana (dowolne opcje) i pole wyboru (można wybrać tylko jedną opcję z trzech)
+
+Zadanie 2.2
+
+Ten sam kod HTML otrzymał style CSS. Wygląda teraz jak na załączonych zrzutach ekranu (pliki 22a.jpg, 22b.jpg).
+Stwórz style CSS by Twoja strona z zadania 2.1 wyglądała podobnie. Nie musi być identycznie, ale:
+
+- Treść strony jest scrollowana (zrzuty ekranu przedstawiają górę i dół treści)    +
+- Strona jest wyśrodkowana 	
+- Lewa kolumna strony jest półprzezroczysta (kolory i obraz w tle - dowolne)
+- Stopka jest wyśrodkowana
+- Inny kolor na główne linki nawigacyjne, inny na podkategorie
+- Linkiem jest cały prostokąt na liście nawigacji, a nie tylko tekst
+- Delikatny efekt (zmiana przezroczystości) pojawia się gdy najedziemy myszą na element listy
+- Formularz mieści się w 2 kolumnach
+- Tabelka ma szerokość jak cała kolumna z treścią
+- Co drugi wiersz tabelki ma inny kolor
+- Stopka ma wyśrodkowany tekst
+
+Punktacja: 
+- poprawnie wykonanych minimum 7 spośród powyższych elementów - 1p
+- poprawnie wykonanych minimum 9 spośród powyższych elementów - 1.5p
+- poprawnie wykonane wszystkie 11 powyższych elementów - 2p
